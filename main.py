@@ -14,7 +14,7 @@ import os
 engine = pyttsx3.init()
 newsapi="05374abd905f47e4bfb6517c41f510e3"
 
-genai.configure(api_key="AIzaSyB7g07gML59K_QbJI7L76GAVwMCy5jGT1A")
+genai.configure(api_key="your key")
 
 
 def speak_old(text):
