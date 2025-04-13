@@ -1,7 +1,7 @@
 import google.generativeai as genai
 
 # Set up API key
-genai.configure(api_key="AIzaSyB7g07gML59K_QbJI7L76GAVwMCy5jGT1A")  # Replace with your key
+genai.configure(api_key="your key")  # Replace with your key
 
 def chat_with_gemini(prompt):
     model = genai.GenerativeModel("gemini-1.5-pro-latest")  # Use available model
